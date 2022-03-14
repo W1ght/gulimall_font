@@ -7,8 +7,8 @@
  * 注意:
  *  1. 打包只会包含释放(解开注释)的组件, 减少打包文件大小
  */
- import Vue from 'vue';
- import {
+import Vue from 'vue'
+import {
   Pagination,
   Dialog,
   Autocomplete,
@@ -156,7 +156,8 @@ Vue.use(Divider);
 Vue.use(Image);
 Vue.use(Calendar);
 
-Vue.use(Loading.directive);
+
+Vue.use(Loading.directive)
 
 Vue.prototype.$loading = Loading.service
 Vue.prototype.$msgbox = MessageBox
